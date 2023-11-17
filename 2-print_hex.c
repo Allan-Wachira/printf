@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_hex - prints unsigned hex numbers in lowercase
- * @ap: the argument pointer
- * @params: the parameters struct
+ * @ap: this is the argument pointer
+ * @params: this represents the parameters struct
+ * print_hex - this is what prints unsigned hex numbers in lowercase
  *
- * Return: bytes printed
+ * Return: print bytes
  */
 int print_hex(va_list ap, params_t *params)
 {
@@ -31,11 +31,11 @@ int print_hex(va_list ap, params_t *params)
 }
 
 /**
- * print_HEX - prints unsigned hex numbers in uppercase
- * @ap: the argument pointer
- * @params: the parameters struct
+ * @params: this represents the struct
+ * print_HEX - this is where  unsigned hex numbers in uppercase is printed
+ * @ap: this is argument pointer
  *
- * Return: bytes printed
+ * Return: prints the bytes
  */
 int print_HEX(va_list ap, params_t *params)
 {
@@ -60,11 +60,11 @@ int print_HEX(va_list ap, params_t *params)
 	return (c += print_number(str, params));
 }
 /**
- * print_binary - prints unsigned binary number
- * @ap: the argument pointer
- * @params: the parameters struct
+ * @params: this is the paramters struct 
+ * print_binary - this is where the unsigned binary number is printed
+ * @ap: represents the argument pointer
  *
- * Return: bytes printed
+ * Return: print the bytes
  */
 int print_binary(va_list ap, params_t *params)
 {
@@ -79,11 +79,11 @@ int print_binary(va_list ap, params_t *params)
 }
 
 /**
- * print_octal - prints unsigned octal numbers
- * @ap: the argument pointer
- * @params: the parameters struct
+ * @params: this is the parameters struct
+ * print_octal - this is where usigned octal numbers are printed
+ * @ap: reps the argument pointer
  *
- * Return: bytes printed
+ * Return: print the bytes
  */
 int print_octal(va_list ap, params_t *params)
 {

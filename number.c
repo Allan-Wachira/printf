@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigit - checks if character is digit
+ * _isdigit - this functions by checking if character is digit
  * @c: the character to check
  *
  * Return: 1 if digit, 0 otherwise
@@ -12,10 +12,10 @@ int _isdigit(int c)
 }
 
 /**
- * _strlen - returns the length of a string
+ * _strlen - this returns the length of a string
  * @s: the string whose length to check
  *
- * Return: integer length of string
+ * Return: this returns the integer length of string
  */
 int _strlen(char *s)
 {
@@ -27,11 +27,11 @@ int _strlen(char *s)
 }
 
 /**
- * print_number - prints a number with options
+ * @params: this represents the parameter struct
+ * print_number - this prints a number with options
  * @str: the base number as a string
- * @params: the parameter struct
  *
- * Return: chars printed
+ * Return: the chars is printed
  */
 int print_number(char *str, params_t *params)
 {
@@ -58,11 +58,11 @@ int print_number(char *str, params_t *params)
 }
 
 /**
- * print_number_right_shift - prints a number with options
- * @str: the base number as a string
- * @params: the parameter struct
+ * @params: represents the parameter struct
+ * print_number_right_shift - this prompt prints a number with options
+ * @str: this has the base number as a string
  *
- * Return: chars printed
+ * Return: the chars is printed
  */
 int print_number_right_shift(char *str, params_t *params)
 {
@@ -100,11 +100,11 @@ int print_number_right_shift(char *str, params_t *params)
 }
 
 /**
- * print_number_left_shift - prints a number with options
+ * @parameter: represents the parameter struct
+ * print_number_left_shift - this prompt prints a number that has options
  * @str: the base number as a string
- * @params: the parameter struct
  *
- * Return: chars printed
+ * Return: the chars is printed
  */
 int print_number_left_shift(char *str, params_t *params)
 {

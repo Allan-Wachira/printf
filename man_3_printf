@@ -4,7 +4,7 @@
 .\"
 .\"
 .\"
-.TH _PRINTF "20th October 2022" "0.1" "Library functions manual"
+.TH _PRINTF "25th November 2023" "0.1" "Library functions manual"
 
 .SH NAME
 .SH ""
@@ -119,8 +119,3 @@ unsigned hexidecimal notation (x) for lower case and (X) for upper case
 hexadecimal preceded by \x
 
 .RE
-
-.P
-
-.SH "AUTHORS"
-.SH ""

@@ -20,21 +20,21 @@
 #define CONVERT_UNSIGNED	2
 
 /**
- * struct parameters - parameters struct
+ * struct parameters - this represents parameters struct
  *
- * @unsign: flag if unsigned value
+ * @unsign: this should flag if unsigned value
  *
- * @plus_flag: on if plus_flag specified
- * @space_flag: on if hashtag_flag specified
- * @hashtag_flag: on if _flag specified
- * @zero_flag: on if _flag specified
- * @minus_flag: on if _flag specified
+ * @plus_flag:  plus_flag is on if specified
+ * @space_flag: hashtag_flag is on if specified
+ * @hashtag_flag: this particular flag  is on if _flag is specified
+ * @zero_flag: this flag is on if _flag is specified
+ * @minus_flag: minus_flag is on if _flag is specified
  *
- * @width: field width specified
- * @precision: field precision specified
+ * @width: this indicates the field width specified
+ * @precision: this indicates the field precision specified
  *
- * @h_modifier: on if h_modifier is specified
- * @l_modifier: on if l_modifier is specified
+ * @h_modifier: this is on if h_modifier is specified
+ * @l_modifier: this is on if l_modifier is specified
  *
  */
 
@@ -56,10 +56,10 @@ typedef struct parameters
 } params_t;
 
 /**
- * struct specifier - Struct token
+ * struct specifier - this represents the Struct token
  *
- * @specifier: format token
- * @f: The function associated
+ * @specifier: this takes the format token
+ * @f: stands for The function associated
  */
 typedef struct specifier
 {

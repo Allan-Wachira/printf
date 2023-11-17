@@ -2,10 +2,10 @@
 
 /**
  * get_precision - gets the precision from the format string
- * @s: the format string
- * @params: the parameters struct
- * @ap: the argument pointer
- * Return: new pointer
+ * @s: this the format string
+ * @params: this represents the parameters struct
+ * @ap: this reprsents the argument pointer
+ * Return: should return new a pointer
 */
 
 char *get_precision(char *s, params_t *params, va_list ap)
